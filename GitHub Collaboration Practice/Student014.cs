@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,10 @@ namespace GitHub_Collaboration_Practice
 {
     internal class Student014
     {
+        public static void Hello(string message)
+        {
+            message = "hello";
+            Console.WriteLine(message);
+        }
     }
 }
